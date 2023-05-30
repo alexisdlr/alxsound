@@ -22,7 +22,7 @@ export default function Home() {
             "
           >
             {" "}
-            Welcome back
+            Welcome to AlxSound!
           </h1>
         </div>
         <div
@@ -36,9 +36,15 @@ export default function Home() {
             mt-4
           "
         >
-          <ListItem image="/images/liked.png" />
+          <ListItem image="/images/heart.png" name="Liked Songs" href="liked" />
         </div>
       </Header>
+      <div className="mt-2 mb-7 px-6">
+        <div className="flex items-center justify-between">
+          <h2 className="text-2xl font-semibold">Newest Songs</h2>
+        </div>
+        <div>List of songs!</div>
+      </div>
     </div>
   );
 }

@@ -138,6 +138,8 @@ const Header = ({ className, children }: HeaderProps) => {
                   bg-white
                   text-black
                   text-md
+                  hover:opacity-75
+                  transition
                 "
               >
                 Log in
