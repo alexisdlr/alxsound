@@ -13,18 +13,19 @@ const SidebarItem = ({ icon: Icon, active, label, href }: SidebarItemProps) => {
       href={href}
       className={twMerge(
         `
-      flex
-      h-auto
-      items-center
-      w-full
-      gap-x-4
-      text-md
-      font-medium
-      cursor-pointer
-      hover:text-white
-      text-neutral-400
-      py-1
-      transition
+        flex
+        flex-row
+        h-auto
+        items-center
+        w-full
+        gap-x-4
+        text-md
+        font-medium
+        cursor-pointer
+        hover:text-white
+        text-neutral-400
+        py-1
+        transition
     `,
         active && "text-white"
       )}

@@ -31,7 +31,7 @@ const Sidebar = ({ children }: SidebarProps) => {
     [pathname]
   );
   return (
-    <div className="flex h-full">
+    <div className="flex h-screen">
       <div
         className="
           hidden 
@@ -58,11 +58,11 @@ const Sidebar = ({ children }: SidebarProps) => {
             ))}
           </div>
         </Box>
-        <Box className="overflow-y-auto h-screen">
+        <Box className="overflow-y-auto h-full">
           <Library />
         </Box>
       </div>
-      <main className="flex-1 h-screen overflow-y-auto py-2">{children}</main>
+      <main className="flex-1 h-full overflow-y-auto py-2">{children}</main>
     </div>
   );
 };
