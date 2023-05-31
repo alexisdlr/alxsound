@@ -36,7 +36,7 @@ const Modal = ({
             translate-x-[-50%]
             translate-y-[-50%]
             rounded-md
-            bg-slate-800
+            bg-neutral-800
             p-[25px]
             focus:outline-none
           "
