@@ -48,7 +48,7 @@ const SongItem = ({ data, onClick }: SongItemProps) => {
           alt="Image"
         />
       </div>
-      <div className="flex flex-col items-start w-full p-3 gap-y-1">
+      <div className="flex flex-col items-start w-full pt-3 gap-y-1">
         <p className="truncate w-full font-semibold">{data.title}</p>
         <p className="text-sm text-neutral-400 truncate w-full pb-4">
           By {data.author}
