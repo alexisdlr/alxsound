@@ -97,6 +97,7 @@ const Header = ({ className, children }: HeaderProps) => {
           "
         >
           <button
+            onClick={() => router.push("/")}
             className="
               rounded-full
               p-2
@@ -112,6 +113,7 @@ const Header = ({ className, children }: HeaderProps) => {
             <HiHome size={20} className="text-black" />
           </button>
           <button
+            onClick={() => router.push("/search")}
             className="
               rounded-full
               p-2
